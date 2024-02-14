@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MartinKapcala\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\KompreseObrazu.csproj",
+      "projectUniqueName": "/workspaces/cv-komprese-obrazu-v2-Krejcicek/KompreseObrazu/KompreseObrazu.csproj",
       "projectName": "KompreseObrazu",
-      "projectPath": "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\KompreseObrazu.csproj",
-      "packagesPath": "C:\\Users\\MartinKapcala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\obj\\",
+      "projectPath": "/workspaces/cv-komprese-obrazu-v2-Krejcicek/KompreseObrazu/KompreseObrazu.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/cv-komprese-obrazu-v2-Krejcicek/KompreseObrazu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MartinKapcala\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -54,12 +54,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
