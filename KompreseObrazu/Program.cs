@@ -21,6 +21,14 @@
         Console.WriteLine("Počet horizontální řádků {0}",inputCSV.CountSymbolInLine(testFilePath));
 
         inputCSV.vypisImg();
+
+        List<int> unikatniBarvy = inputCSV.PaletaBarevObrazku();
+        
+        Console.WriteLine("_______________________________________________");
+        Console.Write("Unikátní barva: ");
+        foreach(int element in unikatniBarvy){
+            Console.Write($"{element}, ");
+        }
     }
 
     }
