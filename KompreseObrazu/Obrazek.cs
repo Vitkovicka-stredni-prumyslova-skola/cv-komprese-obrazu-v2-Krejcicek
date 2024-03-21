@@ -105,6 +105,43 @@ namespace Komprese
             }
             Console.WriteLine();
         }
+
+
+
+
+/// <summary>
+    /// V načteném obrázku najde všechny unikátní barvy, vloží je do seznamu.
+    /// </summary>
+    /// <returns>Vrací seznam s unikátními barvami, které jsou reprezentované celými čísly </returns>
+    public List<int> PaletaBarevObrazku (){
+       
+        List<int> result = new List<int>();
+
+        for (int j = 0; j < obrazek.GetLength(1); j++)
+        {
+            
+            for (int i = 0; i < obrazek.GetLength(0); i++)
+            {                
+                if(!result.Contains(obrazek[i,j])){
+                    result.Add(obrazek[i,j]);
+                }
+                
+            }
+            
+        }
+        return result;
     }
-  }  
-}
+
+
+
+
+
+
+
+
+
+           }
+        
+    }
+    }
+  
